@@ -6,7 +6,25 @@ body {
 
 .parallax {
   /*the image used*/
+background-image: url("img_parallax");
+/*set a specific height: */
+height: 500px;
 
+/*creating the scrolling effect*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+  )
 
 
 }
