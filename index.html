@@ -9,61 +9,77 @@
 
   <!--     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
 
-    <script>
-        window.jQuery || document.write('<script src="scripts/jquery-3.2.1.min.js"><\/script>');
+  <script>
+    window.jQuery || document.write('<script src="scripts/jquery-3.2.1.min.js"><\/script>');
+  </script>
+  <script>
+    type = "text/javascript"
+    source = "scripts/jquery.stellar.min.js"
+  </script>
+  <script>
+    jQuery(document).ready(function() {
+      alert("this is a test");
+      $('.main').stellar();
+    })
+  </script>
+<style>
+body {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 0 5px black;
+}
+p {
+    padding: 0 0.5em;
+    margin: 0;
+}
+.content {
+    /*background-attachment: fixed;*/
+    height: 400px;
+}
+#content1 {
+    background-image: url("http://www.tamperlock.com/blog/wp-content/uploads/2014/08/london-england.jpg");
+}
+#content2 {
+    background-image: url("http://ocdn.eu/images/pulscms/ZjU7MDQsMCwzMiwzODQsMWZhOzA2LDMyMCwxYzI_/1eb29a70dabd0994cdefaad01ca3c884.jpg");
+}
+#content3 {
+    background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
+}
+#content4 {
+    background-image: url("http://www.tamperlock.com/blog/wp-content/uploads/2014/08/london-england.jpg");
+}
+#content5 {
+    background-image: url("http://ocdn.eu/images/pulscms/ZjU7MDQsMCwzMiwzODQsMWZhOzA2LDMyMCwxYzI_/1eb29a70dabd0994cdefaad01ca3c884.jpg");
+}
+#content6 {
+    background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
+}
 
-    </script>
 
-
-
+</style>
 
   <title>Document</title>
 </head>
 
 <body>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">SCROLL DOWN</span>
+  <div class="content" id="content1">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-</div>
-
-<div class="bgimg-2">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  <div class="content" id="content2">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <div class="content" id="content3" data-stellar-background-ratio="0.5">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+  <div class="content" id="content4" data-stellar-background-ratio="0.5">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+  <div class="content" id="content5" data-stellar-background-ratio="0.5">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
+  <div class="content" id="content6" data-stellar-background-ratio="0.5">
+      <p>TEXT HERE</p>
   </div>
-</div>
-
-
 </body>
 
 </html>
